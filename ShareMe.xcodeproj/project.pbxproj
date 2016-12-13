@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52162B641DA8E9CF00B142BB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B611DA8E9CF00B142BB /* FBSDKCoreKit.framework */; };
+		52162B661DA8E9CF00B142BB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B631DA8E9CF00B142BB /* FBSDKShareKit.framework */; };
+		52162B691DA9053100B142BB /* FacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52162B681DA9053100B142BB /* FacebookController.swift */; };
+		52162B6B1DA9093700B142BB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B6A1DA9093700B142BB /* FBSDKLoginKit.framework */; };
+		52162B6C1DA9094B00B142BB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B6A1DA9093700B142BB /* FBSDKLoginKit.framework */; };
+		52162B6D1DA9094B00B142BB /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B6A1DA9093700B142BB /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52162B6E1DA9094B00B142BB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B611DA8E9CF00B142BB /* FBSDKCoreKit.framework */; };
+		52162B6F1DA9094B00B142BB /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B611DA8E9CF00B142BB /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52162B701DA9094B00B142BB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B631DA8E9CF00B142BB /* FBSDKShareKit.framework */; };
+		52162B711DA9094B00B142BB /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B631DA8E9CF00B142BB /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52162B751DA90C2600B142BB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B741DA90C2600B142BB /* Bolts.framework */; };
+		52162B7A1DA90D2A00B142BB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52162B781DA90D2A00B142BB /* Bolts.framework */; };
+		52162B7B1DA90D2A00B142BB /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52162B791DA90D2A00B142BB /* FacebookSDKStrings.bundle */; };
 		528484AD1DA8DB6F0022741F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528484AC1DA8DB6F0022741F /* AppDelegate.swift */; };
 		528484AF1DA8DB6F0022741F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528484AE1DA8DB6F0022741F /* ViewController.swift */; };
 		528484B21DA8DB6F0022741F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528484B01DA8DB6F0022741F /* Main.storyboard */; };
@@ -33,7 +46,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		52162B721DA9094B00B142BB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				52162B6D1DA9094B00B142BB /* FBSDKLoginKit.framework in Embed Frameworks */,
+				52162B6F1DA9094B00B142BB /* FBSDKCoreKit.framework in Embed Frameworks */,
+				52162B711DA9094B00B142BB /* FBSDKShareKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		52162B611DA8E9CF00B142BB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		52162B631DA8E9CF00B142BB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		52162B681DA9053100B142BB /* FacebookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookController.swift; sourceTree = "<group>"; };
+		52162B6A1DA9093700B142BB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		52162B731DA90A0300B142BB /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
+		52162B741DA90C2600B142BB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "/Users/florianvidal/Downloads/FacebookSDKs-iOS-4.16.0/Bolts.framework"; sourceTree = "<absolute>"; };
+		52162B781DA90D2A00B142BB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		52162B791DA90D2A00B142BB /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
 		528484A91DA8DB6F0022741F /* ShareMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528484AC1DA8DB6F0022741F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		528484AE1DA8DB6F0022741F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +91,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52162B751DA90C2600B142BB /* Bolts.framework in Frameworks */,
+				52162B6E1DA9094B00B142BB /* FBSDKCoreKit.framework in Frameworks */,
+				52162B6B1DA9093700B142BB /* FBSDKLoginKit.framework in Frameworks */,
+				52162B701DA9094B00B142BB /* FBSDKShareKit.framework in Frameworks */,
+				52162B641DA8E9CF00B142BB /* FBSDKCoreKit.framework in Frameworks */,
+				52162B6C1DA9094B00B142BB /* FBSDKLoginKit.framework in Frameworks */,
+				52162B661DA8E9CF00B142BB /* FBSDKShareKit.framework in Frameworks */,
+				52162B7A1DA90D2A00B142BB /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +119,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52162B671DA8E9DB00B142BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52162B781DA90D2A00B142BB /* Bolts.framework */,
+				52162B791DA90D2A00B142BB /* FacebookSDKStrings.bundle */,
+				52162B6A1DA9093700B142BB /* FBSDKLoginKit.framework */,
+				52162B611DA8E9CF00B142BB /* FBSDKCoreKit.framework */,
+				52162B631DA8E9CF00B142BB /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		528484A01DA8DB6F0022741F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +138,7 @@
 				528484C01DA8DB700022741F /* ShareMeTests */,
 				528484CB1DA8DB700022741F /* ShareMeUITests */,
 				528484AA1DA8DB6F0022741F /* Products */,
+				52162B671DA8E9DB00B142BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +155,14 @@
 		528484AB1DA8DB6F0022741F /* ShareMe */ = {
 			isa = PBXGroup;
 			children = (
+				52162B731DA90A0300B142BB /* Bridging-Header.h */,
 				528484AC1DA8DB6F0022741F /* AppDelegate.swift */,
 				528484AE1DA8DB6F0022741F /* ViewController.swift */,
 				528484B01DA8DB6F0022741F /* Main.storyboard */,
 				528484B31DA8DB6F0022741F /* Assets.xcassets */,
 				528484B51DA8DB6F0022741F /* LaunchScreen.storyboard */,
 				528484B81DA8DB6F0022741F /* Info.plist */,
+				52162B681DA9053100B142BB /* FacebookController.swift */,
 			);
 			path = ShareMe;
 			sourceTree = "<group>";
@@ -135,6 +195,7 @@
 				528484A51DA8DB6F0022741F /* Sources */,
 				528484A61DA8DB6F0022741F /* Frameworks */,
 				528484A71DA8DB6F0022741F /* Resources */,
+				52162B721DA9094B00B142BB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +254,7 @@
 				TargetAttributes = {
 					528484A81DA8DB6F0022741F = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WFCVQTFG4N;
 						ProvisioningStyle = Automatic;
 					};
 					528484BC1DA8DB700022741F = {
@@ -235,6 +297,7 @@
 				528484B71DA8DB6F0022741F /* LaunchScreen.storyboard in Resources */,
 				528484B41DA8DB6F0022741F /* Assets.xcassets in Resources */,
 				528484B21DA8DB6F0022741F /* Main.storyboard in Resources */,
+				52162B7B1DA90D2A00B142BB /* FacebookSDKStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52162B691DA9053100B142BB /* FacebookController.swift in Sources */,
 				528484AF1DA8DB6F0022741F /* ViewController.swift in Sources */,
 				528484AD1DA8DB6F0022741F /* AppDelegate.swift in Sources */,
 			);
@@ -412,10 +476,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFCVQTFG4N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShareMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.ShareMe;
+				PRODUCT_BUNDLE_IDENTIFIER = test89289398298jgn.ShareMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +495,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFCVQTFG4N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShareMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.ShareMe;
+				PRODUCT_BUNDLE_IDENTIFIER = test89289398298jgn.ShareMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +583,7 @@
 				528484D31DA8DB700022741F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		528484D41DA8DB700022741F /* Build configuration list for PBXNativeTarget "ShareMeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +592,7 @@
 				528484D61DA8DB700022741F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		528484D71DA8DB700022741F /* Build configuration list for PBXNativeTarget "ShareMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +601,7 @@
 				528484D91DA8DB700022741F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
